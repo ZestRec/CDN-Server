@@ -11,8 +11,8 @@ app = Flask(__name__)
 app.config["SECRET_KEY"] = "PLS DO NOT KEEP THIS"
 CORS(app)
 
-dbPath = ""#* Example "C:\\ZestRec\\db\\""
-cdnPath = ""#* Example "C:\\ZestRec\\cdn\\""
+dbPath = ""#* Example "C:\\ZestRec\\db\\"
+cdnPath = ""#* Example "C:\\ZestRec\\cdn\\"
 recRoomCdnUrl = "https://cdn.rec.net/"
 
 
